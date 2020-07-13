@@ -14,10 +14,10 @@
 
 ## !doctype html 
 
-** (DTD(Document Type Definition)) **의 약자로 컴퓨터 용어로, SGML 꼐열의 마크업 언어에서
+__DTD__ (Document Type Definition의 약자)로 컴퓨터 용어로, SGML 꼐열의 마크업 언어에서
 문서 형식을 정의하는 것이다. SGML을 비롯해 HTML,XHTML,XML등에서 쓰인다.
 
-[DTD](http://www.w3.org/TR/html4/loose.dtd"DTD사이트입니다.") DTD 사이트 입니다.
+[DTD 사이트 입니다.](http://www.w3.org/TR/html4/loose.dtd"DTD사이트입니다.")
 
 ## Strict, Transitional DTD
 
