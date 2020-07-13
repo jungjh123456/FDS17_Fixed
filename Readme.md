@@ -58,7 +58,7 @@ attribute 는 html 문서 안에서의 정적인(바뀌지 않는) 속성 그
 Attribute는 element가 가지고 있는 것을 의미한다.
 
 Attribute는 hteml 요소의 추가적인 정보를 전달하고 이름="값" 이렇게 쌍으로 온다.
-예를 들어 <div class="my-class"></div>를 보면 div 태그가 class라는 값이 'my-class'인 attribute를 가지고 있다.
+예를 들어 ```<div class="my-class"></div>```를 보면 div 태그가 class라는 값이 'my-class'인 attribute를 가지고 있다.
 
 예를들어, HTML에서의 Attributes는 element가 가지고 있는 것을 의미한다. 이름="값" 이렇게 ket-value로 되어 있는 것을 의미한다.
 Property는 attribute에 대한 HTML DOM 트리안에서의 표현이다. 그래서 위 예시에서 attribute는 값이 'my-class'이며 이름이 'className'인 property를 가진다.
