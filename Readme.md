@@ -50,3 +50,20 @@ UTF-8은 세계의 거의 모든 문자와 기호를  포함한다. 이것이 �
 
 Title요소는 검색 최적화 하고도 연관 되어 있다.(검색 엔진 최적화)
 지켜야 할 것은 준수 하고 중심 키워드는 유니크 해야한다.
+
+##Root Element (attribute와 property의 차이)
+
+attribute 는 html 문서 안에서의 정적인(바뀌지 않는) 속성 그 자체를 의미하고, property 는 html DOM 안에서 동적인(바뀌는) 속성(또는 그 값)을 의미합니다.
+
+Attribute는 element가 가지고 있는 것을 의미한다.
+
+Attribute는 hteml 요소의 추가적인 정보를 전달하고 이름="값" 이렇게 쌍으로 온다.
+예를 들어 <div class="my-class"></div>를 보면 div 태그가 class라는 값이 'my-class'인 attribute를 가지고 있다.
+
+예를들어, HTML에서의 Attributes는 element가 가지고 있는 것을 의미한다. 이름="값" 이렇게 ket-value로 되어 있는 것을 의미한다.
+Property는 attribute에 대한 HTML DOM 트리안에서의 표현이다. 그래서 위 예시에서 attribute는 값이 'my-class'이며 이름이 'className'인 property를 가진다.
+
+예를 더 들어서
+
+Attribute는 element 가 가지고 있는 것들 -> id , style,href,target등
+Property는 object가 가지고 있는 구성요소들 -> style에 color ,font-size 가 style property
