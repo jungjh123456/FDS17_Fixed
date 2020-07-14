@@ -51,7 +51,7 @@ UTF-8은 세계의 거의 모든 문자와 기호를  포함한다. 이것이 �
 Title요소는 검색 최적화 하고도 연관 되어 있다.(검색 엔진 최적화)
 지켜야 할 것은 준수 하고 중심 키워드는 유니크 해야한다.
 
-##Root Element (attribute와 property의 차이)
+## Root Element (attribute와 property의 차이)
 
 attribute 는 html 문서 안에서의 정적인(바뀌지 않는) 속성 그 자체를 의미하고, property 는 html DOM 안에서 동적인(바뀌는) 속성(또는 그 값)을 의미합니다.
 
