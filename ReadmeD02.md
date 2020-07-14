@@ -89,7 +89,20 @@ W3C는 2015년 1월 8일 IndexedDB 인터페이스를 위한 최종 권고안을
 IndexedB는 Transaction Database를 사용하여 Key-value로 데이터를 관리하며, B-Tree데이터 구조를 가진다.
 
 ## css 기초
+CSS(Cascading Style Sheet)는 마크업 언어가 실제 표시되는 방법을 기술하는 언어로, HTML 과 
+XHTML에 주로 쓰이며, XML에서도 사용할 수 있습니다.
+다시 말해, HTML 문서를 스타일링 하는 언어(W3C의 표준)로 HTML 문서에서 link요소를 사용해 CSS
+파일을 읽어 들이면 HTML 문서의 구조를 CSS를 통해 스타일링 하게 됩니다.
 
+### CSS를 사용해야 하는 이유
+1. 명확환 구조적 디자인과 표현적 디자인을 분리할 수 있다.
+2. 다양한 장치에서 접근이 좀 더 용이하게 할 수 있습니다.
+3. 웹 사이트의 많은 수정사항을 보다 빠르게 수정함에 있어서 용이하고(모든 페이지를 수정하는 것이 아니라 한개의 CSS파일만 수정) 물론 CSS파일이 콘텐츠 성격에 나뉘어 작업하지만 다수의 페이지가 있더라도 공통된 스타일(디자인)이 있기 때문에 해당 CSS파일만 수정하면 작업에 용이
+4. 또한 코드에 가독성, 성능 최적화, 그리고 사용자가 자신의 기호에 맞게 디자인을 커스텀하는데 좋습니다.
+5. 그리고 사이트를 운영하는 자에게는 유지보수 측면, 즉 관리의 용이성이 좋습니다.
+
+### CSS 기술 문서에 대한 진행별 상태 코드
+FPWD(First Public Working Draft) 첫번째 공식 초안 단계 -> WD(Working Draft) 권고되는 표준 후보 스펙 -> CR(Candidate Recommendation) 권고되는 표준 후보 스펙 -> PR(Proposed Recommendation) 표준에 제안된 상태 -> REC(Recommendation) 표준으로 체택된 상태 -> SPSD(Superseded Recommendation) -> 표준이 업데이트되면서 대체된 권고안(표준안)
 !import는 맨 앞에 적어야한다.
 
 ## normalize.css
