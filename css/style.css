@@ -25,7 +25,7 @@ body {
   position: absolute;
   width: 1px;
   margin: -1px;
-  clip-path: polygon(0 0,0 0,00);
+  clip-path: polygon(0 0,0 0,0 0);
   height: 1px;
   overflow: hidden; 
 }
