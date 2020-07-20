@@ -360,7 +360,6 @@ a {
   border: 0;
   margin: 0;
   padding: 0;
-  border: 0;
   padding-bottom: 5px;
   border-bottom: 1px solid #aaa;
   
@@ -374,14 +373,14 @@ a {
 }
 
 .login-form div {
-  width: 55px;
-  
+  width: 150px;
+  margin-bottom: 5px;
   
 }
 
 .login-form label {
   display: inline-block;
-  margin-bottom: 5px;
+
   width: 55px;
 }
 
