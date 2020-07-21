@@ -335,6 +335,7 @@ a {
   border-radius: 5px;
   padding: 10px;
   box-shadow: 5px 5px 0 0 #ccc;
+  width: calc(100% - 5px);
 }
 
 .login-heading{
@@ -442,6 +443,32 @@ a {
 .login-form legend {
 
 }
+/* 유효성 검사 배너 링크 */
+.validation-list {
+ margin-top: 25px;
+ margin-bottom: 0;
+ padding-left: 0;
+ list-style: none;
+}
+
+.validation-list a {
+  display: block;
+  padding: 8px 10px 8px 45px;
+  margin-top: 10px;
+  background-color: #ccc;
+  background-image: url(./images/validation_icon.png), 
+  linear-gradient(180deg, #ccc, #eee);
+  background-repeat: no-repeat, repeat;
+  border: 1px solid rgb(156, 152, 152);
+  background-position: 15px 50%, 0 0;
+  border-radius: 20px;
+}
+
+.validation-list a:hover{
+  color: #f00;
+}
+
+
 
 /* 슬로건 */
 .slogan {
