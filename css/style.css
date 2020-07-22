@@ -576,6 +576,66 @@ a {
   font-size: 14px;
 }
 
+/*검색 폼*/
+
+.search-form {
+  border-radius: 15px 15px 0 0;
+  padding: 15px 25px 10px;
+  border: 1px solid #aaa;
+  
+  background: #ccc linear-gradient(180deg, #ccc, #fff);
+  border-bottom-color: #fff;
+}
+
+.search-form fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.search-form div[role="group"] {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.search-form label {
+  height: 20px;
+}
+
+.search-form label,
+.btn-search {
+  white-space: nowrap;
+}
+
+.search-form label::before {
+  content: '\e802';
+  font-family: 'fontello';
+  text-decoration: inherit;
+  margin-right: .2em;
+}
+.search-form input[type="search"]{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  flex-grow: 1;
+  padding: 1px 1px 1px 5px;
+  height: 24px;
+  width: 200px;
+  margin-left:5px;
+  margin-right:5px;
+}
+.btn-search {
+  border: 1px solid #aaa;
+  background: #222;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  height: 24px;
+  padding: 0 10px;
+}
 
 /* 슬로건 */
 .slogan {
