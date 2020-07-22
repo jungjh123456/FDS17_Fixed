@@ -636,7 +636,57 @@ a {
   height: 24px;
   padding: 0 10px;
 }
+/*board*/
 
+.board {
+  position: relative;
+}
+.notice {
+  
+}
+.notice-list {
+display: none;
+}
+
+.notice-heading {
+  padding:0;  
+
+}
+
+.tab {
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  border: 1px solid #aaa;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab-act .tab {
+  color: #ED552f;
+  border-color: #ED552F;
+}
+
+.pds {
+  position: absolute;
+  top: -17px;
+  left: 74px;
+}
+.pds-heading {
+  padding: 0;
+}
+.pds-heading .tab {
+
+
+ 
+  
+}
+
+.pds-list {
+  
+}
+.pds-more {
+  display: none;
+}
 /* 슬로건 */
 .slogan {
   background-color: orange;
