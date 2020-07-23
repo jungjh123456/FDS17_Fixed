@@ -189,7 +189,7 @@ a {
   margin: 0;
   padding-left: 0;
   list-style: none;
-
+  display: none;
   white-space: nowrap;
 }
 
@@ -216,7 +216,9 @@ a {
 .sub-menu a:hover {
   color: red;
 }
-
+.menu-act .sub-menu {
+  display: block;
+}
 .sub-menu a:hover::before,
 .sub-menu a:focus::before {
   content: '\e800';
@@ -236,29 +238,7 @@ a {
   right: 0;
 }
 
-.sub-menu1 {
-  display: block;
-}
 
-.sub-menu2 {
-  display: none;
-}
-
-.sub-menu3 {
-  display: none;
-}
-
-.sub-menu4 {
-  display: none;
-}
-
-.sub-menu5 {
-  display: none;
-}
-
-.sub-menu6 {
-  display: none;
-}
 
 /* 비주얼 */
 @keyframes textAni {
