@@ -636,16 +636,146 @@ a {
   height: 24px;
   padding: 0 10px;
 }
-/*board*/
+
+/*공지사항 및 자료실*/
 
 .board {
+  background-color: yellow;
   position: relative;
+  margin-top: 20px;
+  min-height: 180px;
 }
-.notice {
+
+.notice-heading, .pds-heading {
+  background-color: pink;
+  float: left;
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.tab {
+  display: block;
+  color: #666;
+  border: 1px solid #aaa;
+  border-radius: 5px 5px 0 0;
+  padding: 5px 10px;
+  background: #ccc linear-gradient(180deg, #ccc, #eee);
+ 
   
 }
-.notice-list {
-display: none;
+.tab-act .tab {
+  color: #db5629;
+  border-color: #db5629 #db5629 #fff #db5629;
+ 
+  background: #fff;
+}
+
+.notice-more, .pds-more{
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  padding: 8px;
+}
+
+
+.notice-list,
+.pds-list,
+.notice-more,
+.pds-more {
+  display: none;
+}
+
+.tab-act .notice-list,
+.tab-act .pds-list,
+.tab-act .notice-more,
+.tab-act .pds-more {
+  display: block;
+}
+.notice-list, .pds-list {
+  background-color: orange;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  
+}
+.notice-list li, .pds-list li {
+  background-color: orange;
+  margin-bottom: 10px;
+}
+.notice-list a::before, .pds-list a::before{
+ content: '\f192'; 
+ font-family: 'fontello';
+
+
+ display: inline-block;
+ width: 1em;
+ margin-right: .2em;
+
+}
+
+.notice-list li::after, .pds-list li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.notice-list a, .pds-list a {
+  background-color: skyblue;
+  float: left;
+  width: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.notice-list time, .pds-list time {
+  background-color: violet;
+  float: right;
+}
+
+.icon-plus::before{
+  color: hsla(110, 70%, 50%, 1)
+}
+/* #noticeHeading {
+  padding:0;
+
+}
+.pds-heading {
+  position: absolute;
+  margin-top:0;
+  top: 0;
+  left: 74px;
+  margin: 0;
+  padding: 0;
+}
+.notice-more, .pds-more {
+  position: absolute;
+  top:10px;
+  right: 0;
+  
+}
+
+.notice-list,.pds-list {
+  padding: 0;
+  
+  margin-left: 5px;
+}
+
+.notice-list,.notice-more {
+/* display: none; 
+
+}
+/*
+.pds-list, .pds-more {
+  display: none;
+  margin: 0;
+ 
 }
 
 .notice-heading {
@@ -659,34 +789,60 @@ display: none;
   border: 1px solid #aaa;
   border-bottom: none;
   border-radius: 5px 5px 0 0;
+  background: #ccc linear-gradient(180deg, #ccc, #fff);
+}
+
+.tab:focus {
+  color: #ED552f;
+  border-color: #ED552F;
+  background: none;
 }
 
 .tab-act .tab {
   color: #ED552f;
   border-color: #ED552F;
-}
-
-.pds {
-  position: absolute;
-  top: -17px;
-  left: 74px;
-}
-.pds-heading {
-  padding: 0;
+  background: none;
 }
 .pds-heading .tab {
-
-
  
-  
+}
+.notice-list li, .pds-list li{
+  list-style: none;
+
+  margin-bottom: 11px;
+
 }
 
-.pds-list {
-  
+.notice-list a::before, .pds-list a::before {
+  content: '\f192';
+  font-family: 'fontello';
+  margin-right: 3px;
+  width: 1em;
+
+
 }
-.pds-more {
-  display: none;
+
+.notice-list a, .pds-list a{
+ 
+  display: inline-block;
+  margin:0;
+  padding: 0;
+  width: 297px;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
+.notice-list time, .pds-list time {
+  margin:0;
+  padding: 0;
+}
+
+.icon-plus::before {
+  color: rgb(0, 128, 0);  
+} */
+
 /* 슬로건 */
 .slogan {
   background-color: orange;
