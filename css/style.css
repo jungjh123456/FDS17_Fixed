@@ -895,6 +895,15 @@ a {
   background: #ccc linear-gradient(180deg, #ccc, #eee);
 }
 
+.event-heading, .related-heading {
+  font-size: 1.6rem;
+  margin: 0;  
+}
+.event-heading span ,.related-heading span {
+  color: #db5629;
+  margin-left: 5px;
+}
+
 /*신규 이벤트*/
 
 /* .btn-wrap {
@@ -919,20 +928,12 @@ a {
 } */
 
 .event {
-
   position: relative;
   border-bottom: 1px solid #aaa;
 }
 
 
-.event-heading {
-  font-size: 1.6rem;
-  margin: 0;  
-}
-.event-heading span {
-  color: #db5629;
-  margin-left: 5px;
-}
+
 
 .event-thumbnail, .event-brief {
   margin: 10px 0;
@@ -957,14 +958,12 @@ a {
   line-height: 1.5;
 }
 
-
-
-
 .btn-wrap {
   position: absolute;
   top: 0;
   right: 0;
 }
+
 .btn-prev, .btn-next {
   background-color: #ccc;
   background-image: url('./images/back_forward.png');
@@ -981,6 +980,49 @@ a {
 .btn-next {
   background-position: -35px 0;
 }
+/*관련 사이트*/
+.related {
+  margin-top: 10px;
+}
+.related-list {
+  background-color: #fff;
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0 0;
+  height: 27px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 200ms;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+.related-list:hover {
+  height: 147px;
+  padding: 10px 0;
+ 
+}
+.related-list li {
+  padding: 2px 5px;
+}
+.related-list a{
+  display: block;
+  line-height: 21px;
+  text-indent: 1em;
+}
+
+/* .related-list:hover {
+  height: 147px;
+  
+}
+
+.related-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.related-list a {
+  display: block;
+
+} */
 
 /* 슬로건 */
 .slogan {
