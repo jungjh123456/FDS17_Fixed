@@ -35,6 +35,8 @@ legend {
   clip-path: polygon(0 0, 0 0, 0 0);
   height: 1px;
   overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0,0,0,0);
 }
 
 .clearfix::after {
@@ -959,7 +961,6 @@ a {
 
 
 .btn-wrap {
-  background-color: pink;
   position: absolute;
   top: 0;
   right: 0;
@@ -973,7 +974,8 @@ a {
   border: 0;
   padding: 0;
   cursor: pointer;
-  
+  vertical-align: top;
+
 }
 
 .btn-next {
