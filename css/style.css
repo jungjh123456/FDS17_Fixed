@@ -1168,7 +1168,7 @@ a {
   height: 83px;
   left: 35px;
   bottom: -25px;
-
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1215,14 +1215,125 @@ a {
 
 .slogan-brief span {}
 
+
 .footer-bg {
   width: 100%;
-  background-color: purple;
+  background: #ccc linear-gradient(180deg, #ccc, #eee);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .footer {
-  background-color: skyblue;
+  padding-right: 100px;
+  padding-left: 170px;
+  position: relative;
+  
 }
+
+/* 푸터 로고 */
+.footer-logo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+/* 가이드링크 */
+.guide-list {
+  margin: 0;
+  padding: 4px 20px;
+  list-style: none;
+  background-color: #7b8385;
+  color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.guide-list a{
+  display: block;
+  padding: 6px 15px;
+  text-transform: uppercase;
+}
+
+/* 주소 및 연락처 */
+.address {
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.address span {
+  margin-right: 10px;
+}
+/* 저작권 */
+.copyright {
+  font-size: 1.4rem;
+  display: block;
+}
+/* 적용 기술 배지 */
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* .footer {
+  position: relative;
+  z-index: 0;
+  padding-bottom: 20px;
+}
+
+.footer-logo img{
+  
+  margin-left: 50px;
+
+  margin-right: 10px;
+}
+.guide-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 15px;
+  font-size: 0;
+
+  vertical-align: text-bottom;
+}
+.guide-list li {
+  font-size: 1.4rem;
+  display: inline-block;
+  background: #7b8385;
+  padding: 0 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.guide-list li:nth-child(1){
+  border-radius: 5px 0 0 5px;
+}
+.guide-list li:last-child{
+  border-radius: 0 5px 5px 0;
+}
+.guide-list a {
+  display: block;
+  padding: 13px 0;
+}
+.address {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 160px;
+  
+
+}
+.copyright{
+  display: block;
+  margin-top:5px;
+  margin-left: 160px;
+
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: -20px;
+} */
